@@ -25,46 +25,6 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <modules>
-                <module>finchley</module>
-                <module>greenwich</module>
-             </modules>
-        </profile>
-        <profile>
-            <id>finchley</id>
-            <modules>
-                <module>finchley</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>finchley_java</id>
-            <modules>
-                <module>finchley/java</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>finchley_kotlin</id>
-            <modules>
-                <module>finchley/kotlin</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>greenwich</id>
-            <modules>
-                <module>greenwich</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>greenwich_java</id>
-            <modules>
-                <module>greenwich/java</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>greenwich_kotlin</id>
-            <modules>
-                <module>greenwich/kotlin</module>
-            </modules>
         </profile>
     </profiles>
 
