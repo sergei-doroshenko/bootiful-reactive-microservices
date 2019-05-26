@@ -20,6 +20,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 
+/**
+ * http://localhost:8081/greetings/{name}.
+ * e.g. http://localhost:8081/greetings/Batman
+ */
 @SpringBootApplication
 public class RsocketClientApplication {
 
@@ -67,7 +71,6 @@ class GreetingsClientRestController {
 
 @Configuration
 class RSocketConfig {
-
 
 	@Bean
 	RSocketRequester requester(RSocketStrategies rSocketStrategies) {

@@ -10,13 +10,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>reservation-service</artifactId>
+    <artifactId>reservation-service-2019</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>reservation-service</name>
+    <name>reservation-service-2019</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>11</java.version>
+<!--        <java.version>11</java.version>-->
+        <java.version>8</java.version>
     </properties>
 
     <dependencies>
@@ -34,11 +35,11 @@
             <version>1.0.0.M6</version>
         </dependency>
 
-
-        <!--<dependency>
+        <!-- In case of MonogoDB -->
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-rsocket</artifactId>
